@@ -10,7 +10,7 @@ Take away the comment and do this
 database.default.hostname = localhost
 database.default.database = ci4
 database.default.username = root
-database.default.password = root
+database.default.password = 
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
 database.default.port = 3306

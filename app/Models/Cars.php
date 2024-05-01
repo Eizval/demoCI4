@@ -10,7 +10,7 @@ class Cars extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
     protected $returnType = 'array';
-    protected $useSoftDeletes = false;
+    protected $useSoftDeletes = true;
     protected $protectFields = true;
     protected $allowedFields = ['car_brand', 'car_name', 'color_hex', 'comments', 'car_type_id'];
 

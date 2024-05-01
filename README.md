@@ -8,7 +8,7 @@ Take away the comment and do this  CI_ENVIRONMENT = development
 <br>
 Take away the comment and do this
 database.default.hostname = localhost
-database.default.database = ci4
+database.default.database = cars
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi
@@ -18,6 +18,11 @@ database.default.port = 3306
 ## Start 
 composer update
 php spark serve
+
+## Database
+php spark db:create cars
+php spark migrate
+php spark db:seed Cars
 
 
 

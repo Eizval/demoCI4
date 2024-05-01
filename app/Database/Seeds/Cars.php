@@ -20,7 +20,7 @@ class Cars extends Seeder
             ],
             [
                 'car_brand' => 'Audi',
-                'car_name' => 'Gray GOld',
+                'car_name' => 'Gray Gold',
                 'color_hex' => 'aaafff',
                 'comments' => '',
                 'car_type_id' => 7,
